@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    background-image: linear-gradient(to bottom, #d5951de1, #af429de9);
+    background-repeat: none;
+    text-align: center
+}
+.cell {width:40px; height:40px;text-align: center;}
+.cell img {width:25px; height:auto}
+.floor {background-color: gray}
+.wall {background-color: brown}
+.restart {padding: 10px; background-color: aqua; font-size: 1.5em; display: none;}
+
+table {
+    margin: auto;
+    box-sizing: content-box;
+}
+
+h1 {
+    font-size: 3em;
+    color: #3b4bc3d0;
+    font-style: italic;
+}
+
+td {
+    outline: 2px black solid;
+    transition: 1s;
+    border-radius: 17%;
+}
+
+td:hover {
+    border-radius: 50%;
+    cursor: pointer;
+}
